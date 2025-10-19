@@ -4,7 +4,6 @@
 
 This public AWS workshop showcases the new Amazon Bedrock Agents feature - [multi-agent collaboration capabilities](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-multi-agent-collaboration.html) - through an Energy Efficiency Management System.
 The system consists of a supervisor agent that orchestrates three specialized sub-agents, each handling specific aspects of energy management and customer service.
-The complete workshop can be accessed on [AWS Workshop Studio](https://catalog.us-east-1.prod.workshops.aws/workshops/1031afa5-be84-4a6a-9886-4e19ce67b9c2/en-US).
 
 ## System Architecture
 
@@ -65,35 +64,3 @@ ensuring seamless interactions. The architecture looks as following:
 - Python 3.8+
 - Latest Boto3 SDK
 - AWS CLI configured
-
-## Getting Started
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/aws-samples/bedrock-multi-agents-collaboration-workshop.git
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Follow the setup instructions in the workshop guide, linked in the Overview section.
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This project is licensed under the MIT-0 License - see the LICENSE file for details.
-
-## Support
-
-For support and questions, please open an issue in the repository.
-
----
-
-Note: This workshop is for educational purposes and demonstrates the capabilities of Amazon Bedrock Agents' multi-agent collaboration feature.
